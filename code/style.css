@@ -1,0 +1,360 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Oswald";
+
+}
+
+body {
+    overflow-x:hidden;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    height: 2000px;
+}
+
+
+/* HEADER AND MAIN IMAGE! */
+
+
+
+
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-img {
+    background: url(images/mainpic.jpg) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    height: 130px;
+    background-color: rgba(0, 0, 0, 0.65);
+    position: fixed;
+    z-index: 10000;
+
+}
+
+.header-wrapper {
+    width: 1690px;
+    height: 100%;
+    margin: 0px auto;
+    line-height: 130px;
+}
+
+.logo {
+    display: inline-block;
+    line-height: 130px;
+    width: 10%;
+    float: left;
+}
+
+.logo1 {
+    vertical-align: middle;
+    width: auto;
+}
+
+.nav {
+    float: left;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 450;
+   text-transform: capitalize;
+    width: 80%;
+    height: 130px;
+    text-align: center;
+    opacity: 1;
+}
+
+.nav-items {
+    opacity: 1;
+    margin:0;
+    padding: 0; 
+	display: inline-block;
+}
+
+.nav-items li {
+    float: left;
+    margin: 0 40px;
+}
+
+.search {
+    width: 10%;
+    float: left;
+    color: #fff;
+}
+
+.search a:visited {
+    color: #fff;
+}
+    
+#mk-en {
+/*    margin-left:20px;*/
+    float: right;
+}
+
+#search-icon {
+    margin-left: 40px;
+}
+
+.elite {
+    width: 50%;
+/*    margin: 0 auto;*/
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.elite h1 {
+    
+    font-size: 78px;
+}
+
+
+.button {
+    background-color: #c6a38a;
+    border-radius: 10px;
+    border:none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* COFFEE STANDARDS */
+
+.coffee-stand {
+    width: 100%;
+    height: 960px;
+    background-color: coral;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* HAND CRAFTED & FRESH ROASTED */
+
+.hand-wrap {
+    width: 100%;
+    height: 570px;
+    background-image: url(images/made.png);
+    
+}
+
+.hand-text-wrap {
+    width: 100%;
+    height: 570px;
+    padding-left: 103px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.hand-txt {
+    color: #fff;
+    font-size: 78px;
+    font-weight: 300;
+    
+
+
+}
+
+.small-wrap {
+    margin-top: 35px;
+/*    width: 1690px ;*/
+    height: auto;
+/*    margin: 0 auto;*/
+    text-align: center;
+    
+    
+}
+
+.small-coffee {
+    font-size: 70px;
+    color: #4f3f39;
+    font-weight: 300;
+    margin-bottom: 15px;
+
+}
+
+
+.we-are {
+    font-size: 36px;
+    color: #4f3f39;
+    font-weight: 300;
+
+}
+
+.stores {
+    font-size: 36px;
+    display: block;
+    color: #4f3f39;
+    font-weight: 300;
+
+}
+
+.pic-wrap {
+    margin-top: 15px;
+    margin-left: 8%;
+    margin-right: 8%;
+    
+}
+
+.who-wrap {
+    width: 1690px;
+    font-size: 60px;
+
+}
+.who-we-are {
+    color: #4f3f39;
+    font-weight: 300;
+    margin: 0 250px;
+}
+.our-coffee {
+    color: #4f3f39;
+    font-weight: 300;
+    
+}
+.visit-us {
+    color: #4f3f39;
+    font-weight: 300;
+    margin-left: 300px;
+}
+
+.bg-img-2 {
+    background: url(images/hero.png) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    position:relative;
+}
+
+.bg-text {
+    top:40%;
+    width: 45%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 300;
+    line-height: 0.9;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.brand-slider {
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.65);
+
+}
+
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+/*    margin: 0 auto;*/
+    height: 520px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 35px;
+    
+
+}
+.footer-wrap {
+
+margin-left:115px;
+margin-right: 115px;
+
+}
+.footer-left {
+    
+    float:left;
+    width: 40%;
+   
+}
+
+.footer-left  h1{
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.day  {
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    float:left;
+}
+.day li {
+    margin-top: 15px;
+}
+
+
+
+.time {
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    float:left;
+    margin-left: 150px;
+}
+
+.time li {
+    margin-top: 10px;
+    margin-top: 15px;
+}
+
+.footer-mid {
+    float:left;
+    width: 40%;
+}
+
+.footer-mid h1 {
+    color: rgb(255, 255, 255);
+}
+
+
+.footer-right {
+    float:left;
+    width: 20%;
+}
+
+.footer-right h1{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
