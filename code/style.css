@@ -34,6 +34,7 @@ a {
     text-decoration: none;
 }
 
+
 .bg-img {
     background: url(images/mainpic.jpg) center center no-repeat;
     background-size: cover;
@@ -42,7 +43,7 @@ a {
     height: 100vh;
 }
 .bg-img-contact {
-    background: url(images/contact.jpg) center center no-repeat;
+    background: url(images/contact.png) center center no-repeat;
     background-size: cover;
     width: 100%;
     position: relative;
@@ -93,21 +94,31 @@ a {
 .nav {
     float: left;
     font-size: 16px;
-    color: #fff;
+/*    color: #fff;*/
     font-weight: 300;
     text-transform: capitalize;
     width: 80%;
 /*    height: 130px;*/
     text-align: center;
     opacity: 1;
+    text-decoration: none;
 }
 
 .nav-items {
+    
     opacity: 1;
     margin:0;
     padding: 0; 
 	display: inline-block;
 }
+
+.nav-items a:link {
+    color:#fff;
+}
+.nav-items a:visited {
+    color: #fff;
+}
+
 
 .nav-items li {
     float: left;
@@ -115,16 +126,28 @@ a {
 }
 
 .search {
-    width: 10%;
+    width: 12%;
     float: left;
     color: #fff;
 }
 
 .search a:visited {
-    color: #fff;
+    color :#fff;
 }
-    
+
+.search a:link {
+   color:#fff; 
+}
+
+.search-area {
+    padding: 1px;
+}
+
+
+
+
 #mk-en {
+    margin: 0 auto;
 /*    margin-left:20px;*/
     float: right;
 }
@@ -170,9 +193,10 @@ a {
 .coffee-stand {
     width: 100%;
     height: 960px;
-    background-color: coral;
+    /*background-color: coral;*/
     padding: 0px;
     margin: 0px;
+    
 }
 
 
@@ -270,6 +294,7 @@ a {
     width: 100%;
     height: 50vh;
     position:relative;
+    margin-top: 35px;
 }
 
 .bg-text {
@@ -358,7 +383,9 @@ margin-right: 115px;
 .footer-mid h1 {
     color: rgb(255, 255, 255);
 }
-
+.footer-mid img {
+    width: 300px;
+}
 
 .footer-right {
     float:left;
@@ -411,7 +438,9 @@ margin-right: 115px;
 
 
 
-
+.cleaner {
+    clear:both;
+}
 
 
 /*CONTACT*/
@@ -450,7 +479,6 @@ margin-right: 115px;
 /* CONTACT FORM */
 
 .form {
-    
     width: 1690px;
     margin: 0px auto;
     line-height: 100px;
@@ -490,6 +518,7 @@ margin-right: 115px;
 }
 
 .form-right {
+    
     width:40%;
     float:right;
 }
@@ -508,6 +537,8 @@ input[type=text], select {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    border:none;
+    background-color: #e1e1e1;
 }
 
 input[type=email] {
@@ -517,16 +548,200 @@ input[type=email] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    background-color: #e1e1e1;
 }
 
 
-.footer-contact {
-/*    width: 100%;*/
-/*    margin: 0 auto;*/
-    background-color: rgba(0, 0, 0, 1);
-    padding-top: 500px;
-    height: 400px;
+.form-right textarea {
+    width: 100%;
+    height: 190px;
+    border: none;
+    background-color: #e1e1e1;
+    padding: 15px;
+}
+
+.button1 {
+    background-color: #c6a38a;
+    border-radius: 10px;
+    border:none;
+    color: #fff;
+    padding: 17px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+
+
+
+/* RESERVATION */
+
+
+.bg-img-reservation {
+    background: url(images/reservation.png) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+}
+
+
+.reservation {
+    width: 1690px;
+    margin: 0px auto;
+    line-height: 100px;
+}
+
+.reservation h1 {
+    color: #4f3f39;
+    font-size: 60px;
+    margin-top: 35px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.reservation-box {
+    
+    width: 660px;
+    height: 700px;
+    color: #4f3f39;
+    border-style: solid;
+    margin: 0 auto;
+    margin-bottom:35px;
     
 }
+
+.reservation-box ul {
+    
+}
+.res-txt {
+    
+    display:flex;
+    justify-content: center;
+    
+}
+
+.res-form {
+    margin: 0 auto;
+    width: 520px;
+    text-align: center;
+}
+
+#fnumber {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #e1e1e1;
+}
+
+#date {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #e1e1e1;
+}
+
+.res-form textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border:none;
+    background-color: #e1e1e1;
+    height: 100px;
+}
+
+.button17 {
+    background-color: #c6a38a;
+    border-radius: 10px;
+    border:none;
+    color: #fff;
+    padding: 17px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+/* GALLERY  */
+
+.bg-img-gallery {
+    background: url(images/gallerymain.jpg) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+}
+/*#container_gall {
+	position:relative;
+	width:550px;
+	height:550px;
+	overflow:hidden;
+}*/
+.bob {
+/*	position:fixed;*/
+}
+
+
+.gallery-off {
+    height: 800px;
+}
+
+.gallery-off h1{
+    color: #4f3f39;
+    font-size: 60px;
+    margin-top: 35px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.gallery-pos {
+    margin-top:35px;
+    left:120px;
+/*   margin-left: 20%; */
+}
+
+.bob {
+    margin-right:50px;
+   
+}
+
+.bob1 {
+    margin-right:50px;
+
+}
+
+.bob2 {
+    margin-right:50px;
+    
+}
+
+.gallery-pos1 {
+    display:block;
+    top: 50%;
+    left: 100px;
+}
+
+
+
+
+
+
+
 
 
